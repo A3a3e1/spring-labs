@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="HSQLDB (Local) - . [2]" uuid="a1f0b484-dd92-4937-90a6-5c4920d988c8">
+    <database-info product="HSQL Database Engine" version="2.2.5" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.2.5">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="HSQLDB" format-version="2.6">
+      <database id="1" name="PUBLIC">
+        <visible>1</visible>
+      </database>
+      <schema id="2" parent="1" name="PUBLIC">
+        <visible>1</visible>
+      </schema>
+      <schema id="3" parent="1" name="INFORMATION_SCHEMA"/>
+      <schema id="4" parent="1" name="SYSTEM_LOBS"/>
+      <table id="5" parent="2" name="COUNTRY"/>
+      <column id="6" parent="5" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>INTEGER(32)|4</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="7" parent="5" name="NAME">
+        <data-type>VARCHAR(255)|12</data-type>
+      </column>
+      <column id="8" parent="5" name="CODE_NAME">
+        <data-type>VARCHAR(255)|12</data-type>
+      </column>
+      <key id="9" parent="5" name="SYS_PK_10033">
+        <name-surrogate>1</name-surrogate>
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
