@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="HSQLDB (Local) - . [2]" uuid="a1f0b484-dd92-4937-90a6-5c4920d988c8">
+      <secret-storage>master_key</secret-storage>
+      <user-name>sa</user-name>
+      <introspection-scope>PUBLIC:public</introspection-scope>
+      <resolve-scope>PUBLIC:public</resolve-scope>
+    </data-source>
+  </component>
+</project>

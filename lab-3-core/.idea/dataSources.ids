@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="HSQLDB (Local) - ." uuid="fab6a6e3-adbc-426b-a832-faf189e09add">
+    <database-info product="HSQL Database Engine" version="2.2.5" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.2.5">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="HSQLDB" format-version="2.6">
+      <database id="1" name="PUBLIC">
+        <visible>1</visible>
+      </database>
+      <schema id="2" parent="1" name="PUBLIC">
+        <visible>1</visible>
+      </schema>
+      <schema id="3" parent="1" name="INFORMATION_SCHEMA"/>
+      <schema id="4" parent="1" name="SYSTEM_LOBS"/>
+    </database-model>
+  </data-source>
+</component>
